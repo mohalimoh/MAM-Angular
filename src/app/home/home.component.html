@@ -1,0 +1,6 @@
+<app-star *ngFor="let r of Ratings" [rating]="r" (starClicked)="onClicked($event)"></app-star>
+<h1 *ngIf="eventOutput != null">{{eventOutput.name + " " + eventOutput.age + " " + eventOutput.school }}</h1>
+<p>from home cmp</p>
+<input type="text" #nameInpudField />
+<h4>{{name}}</h4>
+<button (click)="btnApplyOnCliked(nameInpudField)"> Apply</button>
