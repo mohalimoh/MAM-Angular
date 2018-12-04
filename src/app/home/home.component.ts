@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
   btnApplyOnCliked() {
 
       this.name = this.inputVar.nativeElement.value;
-//
+
     }
 }
 
